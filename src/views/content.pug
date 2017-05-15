@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    .row
+        .col-md-12
+            form(action='/fileupload' method='post' enctype='multipart/form-data').form-inline
+                div.form-group
+                    input(type='file' name='fileupload' id='fileupload' value='Select file').btn.btn-default
+                div.form-group
+                    input(type='submit' name='submit' value='Submit').btn.btn-primary
