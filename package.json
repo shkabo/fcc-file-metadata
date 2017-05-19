@@ -4,7 +4,8 @@
   "description": "FreeCodeCamp file metadata microservice",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
     "express": "^4.15.2",
     "multer": "^1.3.0",
     "pug": "^2.0.0-rc.1"
+  },
+  "engines": {
+    "node": ">=7.4.0",
+    "npm": ">=4.0.5"
   }
 }
